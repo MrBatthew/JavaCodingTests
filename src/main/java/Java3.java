@@ -3,15 +3,14 @@ public class Java3 {
 
     static int initialNumber = 12345;
     static String turnIntoString(int initialString){
-        String newString = Integer.toString(initialString);
 
-        return newString;
+        return Integer.toString(initialString);
     }
 
 
 
     public static void main(String[] args) {
-        int num = 4562;
+
         String numToString = turnIntoString(initialNumber);
 
         String reverseString = "";
